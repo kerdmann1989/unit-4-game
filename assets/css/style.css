@@ -33,4 +33,7 @@ h1 {
     color: white;
 }
 
- 
+
+html {
+    cursor: url('../images/Gauntlet\ 6.cur'), default;
+  }

@@ -1,3 +1,5 @@
+
+
 var wins = 0;
 var losses = 0;
 var counter = 0;
@@ -68,7 +70,6 @@ function crystalClick() {
         ++wins;
         $("#totalWins").html(wins)
         alert("You Win!");
-        //console.log("you win");
         reset ();
 
    }  else if (counter >= targetNumber) {
