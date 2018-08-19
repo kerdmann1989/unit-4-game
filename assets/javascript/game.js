@@ -7,6 +7,7 @@ var targetNumber;
 var images = ["assets/images/crystal_blue.jpg", 
 "assets/images/crystal_yellow.jpg",
 "assets/images/crystal_red.jpg",
+// "assets/images/crystal_red.png",
 "assets/images/crystal_purple.jpg"]
 
 

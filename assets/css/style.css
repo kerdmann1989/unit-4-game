@@ -1,3 +1,23 @@
 .crystal-image {
-    height: 200px;
+    height: 180px;
+    align-content: center;
 }
+
+ body {
+    background-image: url('../images/pirate2.jpg');
+    width: 100%;
+    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
+    opacity: 1;
+ }  
+
+ .container {
+     margin-top: 10%;
+ }
+ 
+ .alert {
+    width: 100%;
+    margin-top: 1%;
+ }
+
