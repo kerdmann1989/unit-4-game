@@ -1,23 +1,36 @@
 .crystal-image {
-    height: 180px;
-    align-content: center;
+    height: 175px;
+  
 }
 
  body {
-    background-image: url('../images/pirate2.jpg');
+    
+    background-image: url('../images/thanos.jpg');
+
+
     width: 100%;
     background-size: cover;
     height: auto;
     background-repeat: no-repeat;
-    opacity: 1;
+    opacity: .8;
  }  
 
- .container {
-     margin-top: 10%;
- }
+  .container {
+     margin-top: 1%;
+ } 
  
  .alert {
     width: 100%;
     margin-top: 1%;
  }
 
+p {
+    color: white;
+}
+
+ 
+h1 {
+    color: white;
+}
+
+ 

@@ -15,24 +15,88 @@
 </head>
 <body>
 
-<div class="container card">
+<div class="container">
 
     <div class="row">
+      
         <div class = "col-sm-12">
-            <h1 class="alert alert-danger text-center">Crystal Collector</h1>
+                <img src = "./assets/images/crystalTitle.png" style = "width: 60%">
+            <!-- <h1 >Crystal Collector</h1> -->
+            <br>
         </div>
     </div>
 
 <div class="row">
     <!-- <div class = "card"> -->
-    <div class = "col-sm-12 text-center">
+    <div class = "col-sm-12">
         <p>You will be given a random number at the start of the game.</p>
-        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-        <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.</p>
+        <p>There are four crystals below.</p>
+        <p>By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to the random number.</p>
+        <p>you lose the game if your total score goes above the random number.</p>
         <p>The value for each crystal is hidden from you until you click on it.</p>
         <p> Each time when the game starts, the game will change the values of each crystal.</p>
     </div>
 </div>
+
+<div class="row">
+    <div class = "col-lg-12">
+        <div id="crystals"></div>
+    </div>
+    </div>
+
+<div class = "row">
+
+    <div class = "col-lg-3">
+        <div class="card border-danger mb-1 mt-1" >
+            <div class="card-header"><h5>Number to Guess</h5></div>
+                <div class="card-body text-danger">
+                    <h5 class="card-title"><span id="number-to-guess"></span></h5> 
+                </div>
+            </div>  
+        </div>
+
+    <div class = "col-lg-3">
+        <div class="card border-danger mb-1 mt-1" >
+            <div class="card-header"><h5>Total Score</h5></div>
+                <div class="card-body text-danger">
+                    <h5 class="card-title"><span id = "totalScore"></span></h5> 
+                </div>
+            </div>  
+        </div>
+    
+    <div class = "col-lg-3">
+        <div class="card border-danger mb-1 mt-1" >
+            <div class="card-header"><h5>Total Wins</h5></div>
+                <div class="card-body text-danger">
+                        <h5 class="card-title"><span id = "totalWins"></span></h5> 
+            </div>
+        </div>
+    </div>
+     
+
+    <div class = "col-lg-3">
+        <div class="card border-danger mb-1 mt-1" >
+            <div class="card-header"><h5>Total Losses</h5></div>
+                <div class="card-body text-danger">
+                    <h5 class="card-title"><span id = "totalLosses"></span></h5> 
+                </div>
+            </div>  
+        </div>
+
+
+        <!-- <div class = "col-lg-4">
+            <h3 class>Number to Guess: <span id="number-to-guess"></span></h3>
+
+            <h3>Total Score: <span id = "totalScore"></span></h3>
+
+            <h3>Total Wins:<span id = "totalWins"></span> </h3>
+
+            <h3>Total Losses: <span id = "totalLosses"></span> </h3>
+        </div> -->
+    
+</div>
+<!-- 
 
     <div class="row">
 
@@ -54,7 +118,7 @@
 
         </div>
   
-    </div>
+    </div> -->
 
 <!-- <div class="row">
 

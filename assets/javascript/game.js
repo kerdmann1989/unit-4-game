@@ -4,11 +4,10 @@ var counter = 0;
 var targetNumber;
 
 //Create array of crystal images
-var images = ["assets/images/crystal_blue.jpg", 
-"assets/images/crystal_yellow.jpg",
-"assets/images/crystal_red.jpg",
-// "assets/images/crystal_red.png",
-"assets/images/crystal_purple.jpg"]
+var images = ["assets/images/crystal_blue.png", 
+"assets/images/crystal_yellow.png",
+"assets/images/crystal_red.png",
+"assets/images/crystal_purple.png"]
 
 
 //Create random number between 19 and 120 and display in HTML
